@@ -1,0 +1,56 @@
+[{
+        "id": 1, 
+        "imagen": "img/shampoAcondicionador.jpeg",
+        "nombre": "Shampoo Solido", 
+        "precio": 1200, 
+        "categoria": "Cuidado capilar" 
+    },
+    {
+        "id": 2, 
+        "imagen": "img/cepillo1.jpeg",
+        "nombre": "Cepillo de Bambu", 
+        "precio": 1500, 
+        "categoria": "Higiene dental"
+    },
+    {
+        "id": 3, 
+        "imagen": "img/aguaMiceral.jpg",
+        "nombre": "Agua Miceral", 
+        "precio": 800, 
+        "categoria": "Cuidado facial" 
+    },
+    {
+        "id": 4, 
+        "imagen": "img/bolsa.jpg",
+        "nombre": "Bolsa Granel", 
+        "precio": 600, 
+        "categoria": "Hogar sustentable" 
+    },
+    {
+        "id": 5, 
+        "imagen": "img/esponjaVegetal.jpg",
+        "nombre": "Esponja Vegetal", 
+        "precio": 650, 
+        "categoria": "Hogar sustentable" 
+    },
+    {
+        "id": 6, 
+        "imagen": "img/shampoAcondicionador.jpeg",
+        "nombre": "Acondicionador Solido", 
+        "precio": 1200, 
+        "categoria": "Cuidado capilar" 
+    },
+    {
+        "id": 7, 
+        "imagen": "img/pads.jpg",
+        "nombre": "Pads Reutilizables", 
+        "precio": 630, 
+        "categoria": "Cuidado facial" 
+    },
+    {
+        "id": 8, 
+        "imagen": "img/hiloDental.jpg",
+        "nombre": "Hilo Dental Biodegradable", 
+        "precio": 690, 
+        "categoria": "Higiene dental" 
+}]
