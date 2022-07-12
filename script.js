@@ -134,6 +134,13 @@ function eliminar(id){
     let fila=document.getElementById(`fila${id}`);
     document.getElementById("tablaBody").removeChild(fila);
     document.querySelector("#seccionTotal").innerText=(`Total: $ ${calcularTotal()}`);
+    // Creo por DOM nuevamente el footer del carrito para que no desaparezca al eliminar un item
+    carrito.length > 0 ? (
+        document.querySelector('#seccionTotal').innerHTML=(`
+            <p id="totalCarrito">Total: $ ${calcularTotal()}</p>
+            <button id="clearCarrito" class="botonesCarrito">Vaciar Carrito</button>
+            <button id="finalizar" class="botonesCarrito">Finalizar compra</button> `)
+    ): (null);
 }  
 
 
@@ -152,6 +159,8 @@ function vaciarCarrito (){
     document.getElementById('totalCarrito').innerHTML = (`Total: $0`);
     carrito = []
 }
+
+
 
 //Finalizar compra
 function finalizar(){
